@@ -3,7 +3,8 @@ LCM Foundation Theme
 
 Contains variables and mixins for using LCM Branding with Foundation.
 
-To install:
+Installing
+----------
 
 ```
 $ bower install git@bitbucket.org:lastcall/lastcall-branding.git
@@ -19,3 +20,6 @@ $ bower link # Mark the package as available to be used
 $ cd original/project/dir
 $ bower link lastcall-branding # Create a symlink to the cloned version.
 ```
+
+Using
+-----

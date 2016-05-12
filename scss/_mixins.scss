@@ -1,0 +1,15 @@
+
+// Apply a responsive vertical gutter to a section.
+// @see Foundation's grid-column().
+@mixin vertical-gutter($gutter: $grid-column-gutter) {
+  @if type-of($gutter) == 'map' {
+    @each $breakpoint, $value in $gutter {
+      $margin: rem-calc($value);
+
+      @include breakpoint($breakpoint) {
+        margin-top: $margin;
+        margin-bottom: $margin;
+      }
+    }
+  }
+}
