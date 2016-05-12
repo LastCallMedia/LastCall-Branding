@@ -1,10 +1,11 @@
 
 @import "variables";
 @import "mixins";
+@import "components/forms";
 @import "../../foundation-sites/scss/foundation";
 
 @mixin lastcall-everything() {
-  @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:300,700);
   @include foundation-everything(true);
+  @include lastcall-forms;
   // Add our components here eventually.
 }
