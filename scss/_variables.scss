@@ -16,6 +16,8 @@ $source-sans-pro-font: "Source Sans Pro",sans-serif;
 //
 // **** Foundation Properties ****
 //
+// Everything below here should be a !default so it can be overridden.
+//
 // Colors
 $foundation-palette: (
         primary: $lcm-red,
@@ -36,6 +38,8 @@ $anchor-text-decoration-hover: underline !default;
 $header-font-family: $pathway-gothic-one-font !default;
 $header-font-weight: bold !default;
 
+// Forms
+$form-label-font-size: rem-calc(16) !default;
 
 // Callouts
 $callout-background-fade: 0% !default;

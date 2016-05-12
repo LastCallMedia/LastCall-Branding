@@ -1,19 +1,9 @@
 
 // Form styling
 @mixin lastcall-forms {
-  #{text-inputs()} {
-    //reduce amount of space between form inputs and their descriptions
-    margin-bottom: .25rem;
-  }
-  input.button {
-    //increase amount of space between form bottom and submit buttons
-    margin-top: 1rem;
-  }
-  label {
-    font-size: 1rem;
-  }
-  .description {
-    font-size: .75rem;
+  //increase amount of space between form bottom and submit buttons
+  .form-actions {
+    margin-top:1rem;
   }
 }
 
