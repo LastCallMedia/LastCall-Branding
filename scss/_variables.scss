@@ -1,0 +1,55 @@
+/** Colors **/
+
+$lcm-red: #FF3333;
+
+// These colors came from portal
+$lcm-light-grey: rgb(245, 245, 245);
+$lcm-dark-green: #00b233;
+$lcm-dark-blue: #3f444f;
+
+
+
+/** Fonts **/
+
+$museo-sans-font: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// ^ Notice: museo-sans isn't currently imported anywhere; helvetica neue looks
+// just fine, but we might want to add in the typekit import at some point
+
+$pathway-gothic-one-font: "Pathway Gothic One",sans-serif;
+$source-sans-pro-font: "Source Sans Pro",sans-serif;
+
+$fi-path: "../fonts";
+
+/** Foundation overrides **/
+
+$foundation-palette: (
+        primary: $lcm-red,
+        secondary: $lcm-dark-blue,
+        success: $lcm-dark-green,
+        warning: #ffae00, /* this is still the default */
+        alert: $lcm-red,
+);
+
+$medium-gray: #B3B3B3;
+
+
+$body-background: $lcm-light-grey;
+$body-font-family: $museo-sans-font;
+
+$anchor-color-hover: #e60000;
+$anchor-text-decoration-hover: underline;
+
+$header-font-family: $pathway-gothic-one-font;
+$header-font-weight: bold;
+
+
+/** Foundation component overrides **/
+
+$callout-background-fade: 0%;
+$callout-border: 1px solid rgba(0, 0, 0, 0.15);
+
+$tab-item-padding: 0.5rem 1.5rem;
+$tab-item-font-size: .95rem;
+
+$titlebar-background: $lcm-red;
+$topbar-background: $lcm-red;

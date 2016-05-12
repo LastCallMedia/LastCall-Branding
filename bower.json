@@ -1,0 +1,9 @@
+{
+    "name": "lastcall-branding",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "foundation-sites": "~6.2.0",
+        "foundation-icon-fonts": "*"
+    }
+}
