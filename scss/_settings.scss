@@ -24,7 +24,7 @@ $source-sans-pro-font: "Source Sans Pro",sans-serif;
 $foundation-palette: (
         primary: $lcm-red,
         secondary: $lcm-dark-blue,
-        success: $lcm-dark-green,
+        success: #3adb76,
         warning: #ffae00, /* this is still the default */
         alert: $lcm-red,
 ) !default;
@@ -44,8 +44,6 @@ $header-font-weight: bold !default;
 $form-label-font-size: rem-calc(16) !default;
 
 // Callouts
-$callout-background-fade: 0% !default;
-$callout-font-color: white !default;
 $callout-border: 1px solid rgba(0, 0, 0, 0.15) !default;
 
 // Tabs
