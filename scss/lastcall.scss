@@ -1,7 +1,7 @@
 
-@import "settings";
-@import "mixins";
-@import "components/forms";
+@import "./settings";
+@import "./mixins";
+@import "./components/forms";
 
 @mixin lastcall-everything() {
   @include lastcall-forms;
