@@ -1,7 +1,7 @@
 LCM Foundation Theme
 ====================
 
-Contains variables and mixins for using LCM Branding with Foundation.
+LCM Foundation Theme is brought to you by your friends at [Last Call Media](https://www.lastcallmedia.com), it contains variables and mixins for using LCM Branding with Foundation.
 
 Installing
 ----------
